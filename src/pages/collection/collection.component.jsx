@@ -12,8 +12,6 @@ const CollectionPage = () => {
     selectCollection(collectionId)(state)
   ); // Use useSelector to access the collection
 
-  console.log("collectionId:", collectionId);
-
   return (
     <div className="collection-page">
       <h2 className="title">{title}</h2>
